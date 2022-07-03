@@ -1,0 +1,97 @@
+.form {
+    width: 56%;
+    margin-left:23%;
+    margin-top: 2%;
+    margin: auto;
+  
+}
+
+fieldset{
+    box-shadow: 5px 8px 10px;
+}
+
+.img{
+    margin-left:5% ;
+   height: fit-content;
+}
+
+.flexbox{
+
+    padding: 2%;
+    display: flex;   
+
+}
+
+.img img{
+    width: 90%;
+    margin: auto;
+    margin-left: 20%;
+ 
+}
+
+.container{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+
+input{
+
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    margin-top: 5%;;
+    text-align: center;
+    display: block;
+    padding: 10%;
+    width: 150%;
+}
+
+
+select{
+    font-weight: 900;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 10%;
+    width: 150%;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+button{
+        width: 150%;
+        padding: 10%;
+        margin-top:20%;
+        text-align: center;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        margin-left:100%;
+        transition: width 0.5s;
+
+}
+
+option{
+
+    padding:2%;
+}
+
+body{
+
+   background-image: url("backkground.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+button:hover{
+
+    width: 260%;;
+    color: purple;
+    box-shadow: 5px 8px 10px;
+
+}
